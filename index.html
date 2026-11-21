@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIÈRE | Perfume Collection</title>
+  <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html">LUMIÈRE<span>.</span></a>
+
+  <nav>
+    <a href="index.html" data-fa="خانه" data-en="Home">خانه</a>
+    <a href="products.html" data-fa="محصولات" data-en="Collection">محصولات</a>
+    <a href="#about" data-fa="درباره ما" data-en="About">درباره ما</a>
+  </nav>
+
+  <button id="languageBtn">EN</button>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow" data-fa="هنر رایحه‌های خاص" data-en="THE ART OF FRAGRANCE">
+      هنر رایحه‌های خاص
+    </p>
+
+    <h1 data-fa="رایحه‌ای که<br>فراموش نمی‌شود"
+        data-en="A SCENT<br>TO REMEMBER">
+      رایحه‌ای که<br>فراموش نمی‌شود
+    </h1>
+
+    <p data-fa="مجموعه‌ای از عطرهای لوکس برای لحظه‌هایی که خاص بودن معنا پیدا می‌کند."
+       data-en="A collection of luxurious fragrances for moments that deserve to be unforgettable.">
+      مجموعه‌ای از عطرهای لوکس برای لحظه‌هایی که خاص بودن معنا پیدا می‌کند.
+    </p>
+
+    <a href="#collection" class="gold-btn"
+       data-fa="مشاهده مجموعه" data-en="EXPLORE COLLECTION">
+       مشاهده مجموعه
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=900"
+         alt="Luxury perfume bottle">
+  </div>
+</section>
+
+<section class="intro" id="about">
+  <p class="eyebrow">LUMIÈRE EXPERIENCE</p>
+  <h2 data-fa="زیبایی در هر قطره" data-en="BEAUTY IN EVERY DROP">
+    زیبایی در هر قطره
+  </h2>
+  <p data-fa="هر عطر داستانی دارد؛ داستانی از ظرافت، اعتمادبه‌نفس و زیبایی."
+     data-en="Every perfume tells a story of elegance, confidence and beauty.">
+    هر عطر داستانی دارد؛ داستانی از ظرافت، اعتمادبه‌نفس و زیبایی.
+  </p>
+</section>
+
+<section class="collection" id="collection">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow" data-fa="انتخابی برای تو" data-en="CHOOSE YOUR SCENT">
+        انتخابی برای تو
+      </p>
+      <h2 data-fa="مجموعه عطرها" data-en="OUR COLLECTION">مجموعه عطرها</h2>
+    </div>
+    <input type="search" id="searchInput"
+      placeholder="جستجوی عطر..." aria-label="Search perfumes">
+  </div>
+
+  <div class="filters">
+    <button class="filter active" data-filter="all"
+      data-fa="همه" data-en="All">همه</button>
+    <button class="filter" data-filter="women"
+      data-fa="زنانه" data-en="Women">زنانه</button>
+    <button class="filter" data-filter="men"
+      data-fa="مردانه" data-en="Men">مردانه</button>
+    <button class="filter" data-filter="unisex"
+      data-fa="یونیسکس" data-en="Unisex">یونیسکس</button>
+  </div>
+
+  <div class="products-grid">
+
+    <article class="product-card" data-category="women">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=700"
+             alt="Rose perfume">
+        <span data-fa="پرفروش" data-en="BEST SELLER">پرفروش</span>
+      </div>
+      <div class="product-info">
+        <p>01 / WOMEN</p>
+        <h3 data-fa="رز سلطنتی" data-en="Royal Rose">رز سلطنتی</h3>
+        <div class="product-bottom">
+          <strong>3,800,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=700"
+             alt="Classic perfume">
+      </div>
+      <div class="product-info">
+        <p>02 / MEN</p>
+        <h3 data-fa="شب طلایی" data-en="Golden Night">شب طلایی</h3>
+        <div class="product-bottom">
+          <strong>4,200,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=700"
+             alt="Luxury fragrance">
+      </div>
+      <div class="product-info">
+        <p>03 / UNISEX</p>
+        <h3 data-fa="امبر لوکس" data-en="Amber Luxe">امبر لوکس</h3>
+        <div class="product-bottom">
+          <strong>5,100,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="women">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=700"
+             alt="Elegant perfume">
+      </div>
+      <div class="product-info">
+        <p>04 / WOMEN</p>
+        <h3 data-fa="بلوم لطیف" data-en="Soft Bloom">بلوم لطیف</h3>
+        <div class="product-bottom">
+          <strong>3,500,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=700"
+             alt="Men fragrance">
+      </div>
+      <div class="product-info">
+        <p>05 / MEN</p>
+        <h3 data-fa="اُود تاریک" data-en="Dark Oud">اُود تاریک</h3>
+        <div class="product-bottom">
+          <strong>4,700,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=700"
+             alt="Perfume collection">
+      </div>
+      <div class="product-info">
+        <p>06 / UNISEX</p>
+        <h3 data-fa="وایت الگانس" data-en="White Elegance">وایت الگانس</h3>
+        <div class="product-bottom">
+          <strong>4,900,000 تومان</strong>
+          <button class="cart" data-fa="انتخاب" data-en="Select">انتخاب</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="empty-message" id="emptyMessage" hidden
+     data-fa="محصولی پیدا نشد." data-en="No products found.">
+     محصولی پیدا نشد.
+  </p>
+</section>
+
+<section class="banner">
+  <p>DISCOVER YOUR SIGNATURE SCENT</p>
+  <h2 data-fa="امضای تو، رایحه توست"
+      data-en="YOUR SIGNATURE, YOUR SCENT">
+      امضای تو، رایحه توست
+  </h2>
+</section>
+
+<footer>
+  <a class="logo" href="index.html">LUMIÈRE<span>.</span></a>
+  <p data-fa="زیبایی در سادگی است." data-en="Beauty lies in simplicity.">
+    زیبایی در سادگی است.
+  </p>
+  <small>© 2026 LUMIÈRE PERFUME</small>
+</footer>
+
+<script src="products.js"></script>
+</body>
+</html>
